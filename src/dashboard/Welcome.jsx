@@ -37,17 +37,12 @@ export const Welcome = () => {
         <Card className={classes.root}>
             <CardContent>
                 <Typography variant="h5" gutterBottom>
-                    CRM demo
+                 cust-rel-mngt
                 </Typography>
                 <Typography gutterBottom>
-                    This app runs in the browser, and relies on a mock REST API.
-                    Feel free to explore and modify the data - it's local to
-                    your computer, and will reset each time you reload.
+                 Uses API
                 </Typography>
                 <Typography gutterBottom>
-                    It was built using react-admin, an open-source framework.
-                    The code for this demo is also open-source. Reading it is a
-                    great way to learn react-admin!
                 </Typography>
             </CardContent>
             <CardActions className={classes.actions}>
@@ -62,7 +57,7 @@ export const Welcome = () => {
                 <Button
                     variant="contained"
                     fullWidth
-                    href="https://github.com/marmelab/react-admin/tree/master/examples/crm"
+                    href="https://github.com/fswebdev/custrelmngt"
                     startIcon={<CodeIcon />}
                 >
                     Source for this demo
