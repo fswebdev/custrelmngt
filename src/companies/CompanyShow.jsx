@@ -35,7 +35,7 @@ import { TagsList } from '../contacts/TagsList';
 import { sizes } from './sizes';
 import { LogoField } from './LogoField';
 import { CompanyAside } from './CompanyAside';
-import { Company, Deal, Contact } from '../types';
+import { Company, Deal, Contact } from 'types';
 import { stageNames } from '../deals/stages';
 
 export const CompanyShow = (props: ShowProps) => (
