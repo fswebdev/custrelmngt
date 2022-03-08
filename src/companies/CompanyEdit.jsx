@@ -85,7 +85,7 @@ const CustomLayout = (props: any) => {
     return (
         <CardContent>
             <Box display="flex">
-                <LogoField record={record as any} />
+                <LogoField record={record} as {any} />
                 <Box ml={2} flex="1" maxWidth={796}>
                     {props.children}
                 </Box>
