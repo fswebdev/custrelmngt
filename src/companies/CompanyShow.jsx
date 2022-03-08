@@ -47,7 +47,7 @@ export const CompanyShow = (props: ShowProps) => (
 const CompanyShowContent = () => {
     const { record, loaded } = useShowContext(<Company>);
     const [value, setValue] = useState(0);
-    const handleChange = (event: ChangeEvent<{}>, newValue: number) => {
+    const handleChange = (event: ChangeEvent(<{}>), newValue: number) => {
         setValue(newValue);
     };
     if (!loaded || !record) return null;
