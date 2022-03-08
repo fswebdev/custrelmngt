@@ -32,7 +32,7 @@ class Layout extends Component<LayoutProps, LayoutState> {
             errorInfo,
         });
     }
-                              /*  error={errorMessage as Error} */
+                            
     render() {
         const { theme, title, children } = this.props;
         const { hasError, errorMessage, errorInfo } = this.state;
@@ -44,7 +44,7 @@ class Layout extends Component<LayoutProps, LayoutState> {
                     <main id="main-content">
                         {hasError ? (
                             <Error
-
+                                error={errorMessage} as Error
                                 errorInfo={errorInfo}
                                 title={title} as string
                             />
