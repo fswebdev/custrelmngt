@@ -9,7 +9,7 @@ import {
 } from 'react-admin';
 import { Box, Typography, Divider, Link } from '@material-ui/core';
 
-import { Company, Sale } from 'types';
+import { Company, Sale } from '../types';
 
 export const CompanyAside = ({
     record,
