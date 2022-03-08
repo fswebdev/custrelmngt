@@ -57,7 +57,7 @@ const CompanyShowContent = () => {
                 <Card>
                     <CardContent>
                         <Box display="flex" mb={1}>
-                            <LogoField record={record as any} />
+                            <LogoField record={record} as {any} />
                             <Box ml={2} flex="1">
                                 <Typography variant="h5">
                                     {record.name}
@@ -146,7 +146,7 @@ const TabPanel = (props: TabPanelProps) => {
 };
 
 const ContactsIterator = () => {
-    const { data, ids, loaded } = useListContext<Contact>();
+    const { data, ids, loaded } = useListContext(Contact);
     const record = useRecordContext();
 
     const now = Date.now();
@@ -217,7 +217,7 @@ const CreateRelatedContactButton = ({ record }: any) => (
 );
 
 const DealsIterator = () => {
-    const { data, ids, loaded } = useListContext<Deal>();
+    const { data, ids, loaded } = useListContext(Deal);
 
     const now = Date.now();
     if (!loaded) return null;
