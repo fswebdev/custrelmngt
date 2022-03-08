@@ -36,7 +36,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "node ./build.js",
+   /* "build": "node ./build.js", */
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
