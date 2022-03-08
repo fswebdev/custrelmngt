@@ -92,7 +92,7 @@ export const CompanyAside = ({
                     source="sales_id"
                     reference="sales"
                 >
-                    <FunctionField <Sale
+                    <FunctionField /><Sale
                         source="last_name"
                         render={record =>
                             record
@@ -100,7 +100,6 @@ export const CompanyAside = ({
                                 : ''
                         }
                     />
-                    </FunctionField>
                 </ReferenceField>
             </Box>
         </Box>
