@@ -46,7 +46,7 @@ class Layout extends Component<LayoutProps, LayoutState> {
                             <Error
 
                                 errorInfo={errorInfo}
-                                title={title as string}
+                                title={title} as string
                             />
                         ) : (
                             children
