@@ -44,7 +44,7 @@ class Layout extends Component<LayoutProps, LayoutState> {
                     <main id="main-content">
                         {hasError ? (
                             <Error
-                                error={errorMessage} as {Error}
+                                error={errorMessage} as Error
                                 errorInfo={errorInfo}
                                 title={title} as string
                             />
