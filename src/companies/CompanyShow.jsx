@@ -123,11 +123,11 @@ const CompanyShowContent = () => {
     );
 };
 
-type TabPanelProps = {
-  // children: React.ReactNode;
+/* type TabPanelProps = {
+    children: React.ReactNode;
     index: any;
     value: any;
-}
+}*/
 
 const TabPanel = (props: TabPanelProps) => {
     const { children, value, index, ...other } = props;
