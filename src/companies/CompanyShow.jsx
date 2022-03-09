@@ -124,7 +124,7 @@ const CompanyShowContent = () => {
 };
 
 interface TabPanelProps {
-   { children?"": React.ReactNode }
+   children?null: React.ReactNode;
     index: any;
     value: any;
 }
