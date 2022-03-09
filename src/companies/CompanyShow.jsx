@@ -124,22 +124,6 @@ const CompanyShowContent = () => {
 };
 
 
-const TabPanel = (props: {"children":React.ReactNode,"value": any, "index": any}) => {
-    const { children, value, index, ...other } = props;
-
-    return (
-        <div
-            role="tabpanel"
-            hidden={value !== index}
-            id={`wrapped-tabpanel-${index}`}
-            aria-labelledby={`wrapped-tab-${index}`}
-            {...other}
-        >
-            {children}
-        </div>
-    );
-};
-
 const ContactsIterator = () => {
     const { data, ids, loaded } = useListContext(<Contact>);
     const record = useRecordContext();
