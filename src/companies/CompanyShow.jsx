@@ -124,7 +124,8 @@ const CompanyShowContent = () => {
 };
 
 interface TabPanelProps {
-   children? null : React.ReactChild | React.ReactChild[],
+   //children? null : React.ReactChild | React.ReactChild[],
+   children: any,
     index: any,
     value: any;
 }
