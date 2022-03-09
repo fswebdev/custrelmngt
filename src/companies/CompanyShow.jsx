@@ -124,7 +124,7 @@ const CompanyShowContent = () => {
 };
 
 
-const TabPanel = (props: {children:"React.ReactNode",value: "any", index: "any"}) => {
+const TabPanel = (props: {children:React.ReactNode,value: "any", index: "any"}) => {
     const { children, value, index, ...other } = props;
 
     return (
