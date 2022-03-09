@@ -125,7 +125,7 @@ const CompanyShowContent = () => {
 
 
 const ContactsIterator = () => {
-    const { data, ids, loaded } = useListContext(<Contact>);
+    const { data, ids, loaded } = useListContext({Contact});
     const record = useRecordContext();
 
     const now = Date.now();
